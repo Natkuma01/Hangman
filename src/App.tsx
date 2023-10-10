@@ -25,6 +25,7 @@ function App () {
       setGuessedLetters(currentLetters => [...currentLetters, letter])
   }, [guessedLetters, isLoser, isWinner])
 
+
   useEffect(() => {
     const handler = (event: KeyboardEvent) => {
       const key = event.key
@@ -40,6 +41,24 @@ function App () {
       document.removeEventListener("keypress", handler)
     }
   }, [guessedLetters])
+
+  useEffect(() => {
+    const handler = (event: KeyboardEvent) => {
+      const key = event.key
+      if (key !== "Enter") return
+
+      event.preventDefault()
+      setGuessedLetters([])
+      setWordToGuess(words[Math.floor(Math.random() * words.length)])
+    }
+
+    document.addEventListener("keypress", handler)
+
+    return () => {
+      document.removeEventListener("keypress", handler)
+    }
+  }, [])
+  
 
   return (
     <>
