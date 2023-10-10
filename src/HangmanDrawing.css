@@ -1,0 +1,95 @@
+.box {
+    /* border: 2px solid black; */
+    width: 450px;
+    height: 450px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+.line1 {
+    position: absolute;
+    top: 420px;
+    width: 200px;
+    left: 320px;
+    border: 2px solid black;
+  }
+  
+.line2 {
+    position: absolute;
+    height: 280px;
+    border: 2px solid black;
+    background: black;
+    top: 140px;
+    left: 380px;
+  }
+  
+.line3 {
+    position: absolute;
+    width: 60px;
+    border: 2px solid black;
+    top: 140px;
+    left: 380px;
+  }
+  
+.line4 {
+    position: absolute;
+    height: 50px;
+    border: 2px solid black;
+    top: 140px;
+    left: 440px;
+  }
+  
+.head {
+    position: absolute;
+    border-radius: 100%;
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+    top: 195px;
+    left: 415px;
+  }
+  
+.body {
+    position: absolute;
+    height: 80px;
+    border: 2px solid black;
+    top: 250px;
+    left: 441px;
+  }
+  
+  .right-arm {
+    position: absolute;
+    width: 30px;
+    border: 2px solid black;
+    top: 280px;
+    left: 440px;
+    rotate: 30deg;
+  }
+  
+.right-leg {
+    position: absolute;
+    width: 30px;
+    border: 2px solid black;
+    top: 340px;
+    rotate: 30deg;
+    left: 440px;
+    
+  }
+
+.left-leg {
+    position: absolute;
+    width: 30px;
+    border: 2px solid black;
+    top: 340px;
+    left: 410px;
+    rotate: -30deg;
+}
+
+.left-arm {
+    position: absolute;
+    width: 30px;
+    border: 2px solid black;
+    top: 280px;
+    left: 410px;
+    rotate: -30deg;
+}

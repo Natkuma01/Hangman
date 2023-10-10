@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
+.words-container{
+    display: flex;
+    gap: 30px;
+    font-family: 'Freckle Face', cursive;
+    text-transform: uppercase;
+    font-size: 70px;
+    justify-content: center;
+    padding-top: 30px;
+    /* border: 2px solid red; */
+}
+
+.under-line{
+    border-bottom: 7px solid 		#fa7e1e;
+    color: 			#fa7e1e;
+}

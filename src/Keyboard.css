@@ -1,0 +1,46 @@
+.keyboard-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));    
+    border-radius: 10px;
+    gap: 7px;
+    margin: 30px;
+    padding-bottom: 200px;
+
+}
+
+.btn{
+   /* border: 1px solid black; */
+   height: 50px;
+   width: 60px;
+   text-transform: uppercase;
+   border-radius: 4px;
+   box-shadow: 10px solid rgb(237, 66, 237);
+   /* background: 		#903ab1; */
+   font-weight: 900;
+   font-style: bold;
+   color: 	#903ab1;
+   text-align: center;
+   font-size: 35px;
+}
+
+.btn:active{
+    background-color: #01cdfe;
+    color: white;
+}
+
+.btn:inactive{
+    color: grey;
+    background-color: white;
+}
+
+.btn:hover:not(:disabled){
+    cursor: pointer;
+    background-color: #4f5bd5;
+    scale: 1.2;
+}
+
+.btn:focus:not(:disabled){
+    cursor: pointer;
+    background-color: #4f5bd5;
+
+}
