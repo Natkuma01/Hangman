@@ -1,4 +1,4 @@
-# Hangman Game
+# Mini Game - Hangman
 
 A simple web‑based Hangman game built with React + TypeScript and Vite.
 
